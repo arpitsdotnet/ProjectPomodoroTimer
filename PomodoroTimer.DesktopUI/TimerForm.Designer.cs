@@ -143,11 +143,10 @@ namespace PomodoroTimer.DesktopUI
             this.Controls.Add(this.lblSet);
             this.Controls.Add(this.lblTimer);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "TimerForm";
-            this.ShowIcon = false;
-            this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Timer";
             this.TopMost = true;
