@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PomodoroTimer.DesktopUI", "PomodoroTimer.DesktopUI\PomodoroTimer.DesktopUI.csproj", "{EAB55B55-56C9-4DFF-9688-CCFF50C891DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PomodoroTimer.UserControls", "PomodoroTimer.UserControls\PomodoroTimer.UserControls.csproj", "{966BABE3-7CF4-4043-ADD4-BBA038BEDA02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PomodoroTimer.ServiceLayer", "PomodoroTimer.ServiceLayer\PomodoroTimer.ServiceLayer.csproj", "{E3590037-0D3B-4DAF-9403-2A5AF32F7B41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PomodoroTimer.ServiceLayer.Tests.Unit", "PomodoroTimer.ServiceLayer.Tests.Unit\PomodoroTimer.ServiceLayer.Tests.Unit.csproj", "{84545B12-281D-4DF5-B102-B1C5E005DA3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAB55B55-56C9-4DFF-9688-CCFF50C891DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAB55B55-56C9-4DFF-9688-CCFF50C891DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAB55B55-56C9-4DFF-9688-CCFF50C891DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAB55B55-56C9-4DFF-9688-CCFF50C891DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{966BABE3-7CF4-4043-ADD4-BBA038BEDA02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{966BABE3-7CF4-4043-ADD4-BBA038BEDA02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{966BABE3-7CF4-4043-ADD4-BBA038BEDA02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{966BABE3-7CF4-4043-ADD4-BBA038BEDA02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3590037-0D3B-4DAF-9403-2A5AF32F7B41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3590037-0D3B-4DAF-9403-2A5AF32F7B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3590037-0D3B-4DAF-9403-2A5AF32F7B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3590037-0D3B-4DAF-9403-2A5AF32F7B41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84545B12-281D-4DF5-B102-B1C5E005DA3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84545B12-281D-4DF5-B102-B1C5E005DA3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84545B12-281D-4DF5-B102-B1C5E005DA3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84545B12-281D-4DF5-B102-B1C5E005DA3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E243598B-AE07-4ECF-A625-C52E5BDC920B}
+	EndGlobalSection
+EndGlobal
